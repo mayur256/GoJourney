@@ -1,7 +1,7 @@
 /**
 - The primary distinction between an array and a slice is that an array is of fixed size, while
 - a slice can dynamically grow/shrink throughout it's lifetime
-- A slice can be though of as a view/reference to an array
+- A slice can be thought of as a view/reference to an array
  */
 package main
 

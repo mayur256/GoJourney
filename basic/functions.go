@@ -1,7 +1,7 @@
 /**
 - Like in all other languages a function in Go is a buidling block and paramount in development
 - However in Go a function is treated as a first-class citizen. This behaviour is also seen in JS
-- Go also support of closure for their functions
+- Go also has support of closure for their functions
 */
 package main
 

@@ -1,5 +1,5 @@
 /**
-- Go supports constants on its primitive values like string, number and bool.package basic
+- Go supports constants on its primitive values like string, number and bool
 - Like in most languages constants variables can't be redeclared or reinitialised
 */
 package main
