@@ -1,7 +1,9 @@
-/**
+/*
+*
 - Interfaces in go can be thought of a set for method signatures. It is also a type.
 - A value of interface type can hold any value that implements those methods.
 - In Go, an interface is satisfied implicitly if a type implements all the methods of that interface.
+- No need to explcitly use statement "implements interface" like in other languages
 */
 package main
 
@@ -44,14 +46,14 @@ func (c circle) perimeter() float64 {
 }
 
 func measure(g geometry) {
-    fmt.Println(g)
-    fmt.Println(g.area())
-    fmt.Println(g.perimeter())
+	fmt.Println(g)
+	fmt.Println(g.area())
+	fmt.Println(g.perimeter())
 }
 
 func main() {
-	rect := rectangle{ width: 5, height: 8 }
-	circ := circle{ radius: 7 }
+	rect := rectangle{width: 5, height: 8}
+	circ := circle{radius: 7}
 
 	measure(rect)
 	measure(circ)
